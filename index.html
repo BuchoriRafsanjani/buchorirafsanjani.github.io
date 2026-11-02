@@ -59,7 +59,7 @@ p{margin:0 0 1rem}
 
 /* Hero */
 header.hero{padding:4.5rem 0 3rem}
-.name{font-family:var(--sans); font-weight:700; font-size:1rem; margin:0 0 1.75rem}
+.name{font-family:var(--serif); font-weight:700; font-size:1.4rem; margin:0 0 1.5rem}
 .hero h1{font-size:clamp(2rem, 5.2vw, 3.1rem); letter-spacing:-0.01em; max-width:17ch; margin-bottom:1.25rem}
 .lede{font-size:1.15rem; color:var(--muted); max-width:38rem}
 .contact{display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; margin-top:1.5rem; font-weight:700}
@@ -104,7 +104,11 @@ header.hero{padding:4.5rem 0 3rem}
 
 /* Sections */
 section{padding:3.5rem 0; border-top:1px solid var(--rule)}
-section > h2{font-size:1.75rem; margin-bottom:.5rem}
+section h2{font-size:1.75rem; margin-bottom:.5rem}
+.extras{margin:2.25rem 0 0}
+.extras h3{font-size:1.25rem; margin-bottom:.75rem}
+.extras ul{margin:0; padding-left:1.2rem}
+.extras li{margin-bottom:.6rem}
 .section-lede{color:var(--muted); margin-bottom:2rem}
 
 /* Case studies */
@@ -240,6 +244,14 @@ footer p{margin:0 0 .5rem}
     </div>
   </section>
 
+  <section id="docs">
+    <div class="wrap">
+      <h2>Documentation</h2>
+      <p>Alongside the tools, I write the documentation that keeps them usable: system documentation for the automation workflows I build, user guides for the colleagues who use them, and SOPs for internal editorial and operational processes.</p>
+      <p>As an editor, I hold documentation to the same standard as published content: accurate, consistent, and checked against its source. I work in Notion, Figma, Google Workspace, and GitHub.</p>
+    </div>
+  </section>
+
   <section id="how">
     <div class="wrap">
       <h2>How I build</h2>
@@ -249,10 +261,10 @@ footer p{margin:0 0 .5rem}
     </div>
   </section>
 
-  <section id="courses">
+  <section id="learning">
     <div class="wrap">
-      <h2>Courses I wrote</h2>
-      <p class="section-lede">Before building tools, I wrote online courses for Dicoding as a curriculum developer (2018–2021).</p>
+      <h2>Learning design</h2>
+      <p class="section-lede">Before building tools, I designed and wrote online courses for Dicoding as a curriculum developer (2018–2021).</p>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Course</th><th class="num">Enrollments</th><th class="num">Rating</th></tr></thead>
@@ -269,13 +281,22 @@ footer p{margin:0 0 .5rem}
           <tfoot><tr><td>8 courses</td><td class="num">290,805</td><td class="num">4.90 avg</td></tr></tfoot>
         </table>
       </div>
+
+      <div class="extras">
+        <h3>Beyond the courses</h3>
+        <ul>
+          <li>Wrote submission review guides for my courses so Dicoding reviewers could assess learners’ projects consistently.</li>
+          <li>Ran game development workshops and mentored participants in game development and project management for a Dicoding campaign.</li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
   <section id="studio">
     <div class="wrap">
-      <h2>Before Dicoding</h2>
-      <p>In 2016, while still in college, I co-founded Always Play Studio with two fellow students. I led our 3-person team and managed 4 client projects building educational games and interactive learning, from pitch to delivery.</p>
+      <h2>Where I started</h2>
+      <p>In 2016, while still in college, I co-founded Always Play Studio with two fellow students. I led our 3-person team and managed 4 client projects building educational games for young children, such as learning letters and animals, from pitch to delivery.</p>
       <p>I studied Game Technology at Politeknik Elektronika Negeri Surabaya (S.Tr.Kom., 2019).</p>
     </div>
   </section>
